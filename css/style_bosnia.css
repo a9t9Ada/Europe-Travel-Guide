@@ -1,0 +1,138 @@
+:root {
+	--blue: #001489;
+	--yellow: #FFCD00;
+	--white: #FFF;
+}
+
+body { background: linear-gradient(135deg, #d6e0ff, #fff9b3, #d6e0ff); }
+
+.header h1 { text-shadow: 2px 2px 4px var(--blue); }
+		
+.header_background { background-image: url("../bosnia/images_bosnia/b&h_flag.png");	}
+
+.nav ul{ background-color:  var(--blue); }	
+
+.nav li a { color: var(--white); }
+
+.nav a:hover:not(.active) {
+	background-color: var(--yellow);
+	color: white;
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color:  var(--blue);
+}
+
+.introduceSection {	background-image: url("../bosnia/images_bosnia/bosnia_home.jpg"); }		
+	
+.introMainSection_row .gallery img:hover { box-shadow: 2px 2px 3px inherit; }
+
+article.blue { border: 2px solid var(--blue);}
+
+article.yellow { border: 2px solid var(--yellow); }	
+	
+.introMainSection_row .fact { border-left: 5px solid var(--blue); }
+
+.introMainSection_row .fact:hover { box-shadow: 2px 2px 3px var(--blue); }
+	
+.introMainSection_row .button { color: var(--blue); }
+
+.introMainSection_row .button:hover{
+	border-color:  var(--blue);
+	background-color: var(--white);
+	color:  var(--yellow);
+}
+		
+.footer{	
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.monuments_food_cont a {
+	color: var(--yellow);
+	background-color: var(--blue);
+}
+
+.monuments_food_cont a:hover {
+	color: var(--blue);
+	background-color: var(--yellow);
+}
+	
+.tripMainSection .fact { background-color: #F4F1EC; }
+
+.tripMainSection .fact.blue { border-left-color: var(--blue); }
+	
+.tripMainSection .fact.yellow { border-left-color: var(--yellow); }
+	
+.tripMainSection .fact strong { color: var(--blue); }
+	
+.tripMainSection .fact.yellow strong { color: var(--yellow); }
+
+.comment_container .comment_card { border: 1px solid var(--blue); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--blue);
+	padding: 10px;
+	background-color: var(--blue);
+	color: var(--white);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	border: none;
+	background-color: var(--yellow);
+}
+
+.addCommentSection .logIn{ color: var(--blue); }
+	
+.addCommentSection .logIn:hover{ color: var(--yellow); }
+
+.loginSection a {
+	background-color: var(--yellow);
+	color: var(--white);
+}
+
+.loginSection form {
+	border-color: var(--blue);
+	color: var(--blue);
+}
+
+.loginSection form input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px groove var(--blue);
+}
+	
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--yellow);
+	box-shadow: 5px 8px var(--blue);
+}
+	
+.loginSection .logIn{ background-color: var(--blue); }
+	
+.signUpSection a { color:var(--blue); }
+	
+.signUpSection a:hover { color: var(--yellow); }
+
+.signUpSection form {
+	border-color: var(--yellow);
+	color: var(--yellow);
+}
+	
+.signUpSection form input { border: 1px solid var(--yellow); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--yellow);
+}
+
+.signUpSection .signUp{
+	background-color: var(--yellow);
+	color: white;
+}
+	
+.signUpSection .spanErr{
+	color: var(--blue);
+}
+

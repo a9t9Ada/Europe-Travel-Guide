@@ -1,0 +1,147 @@
+:root {
+	--red: #C8102E;
+	--white: #FFF;
+	--blue: #003DA5;
+}
+body { background: linear-gradient(180deg, #ff9999, #ffffff, #99ccff); }
+		
+.header h1 { text-shadow: 2px 2px 4px var(--blue); }
+
+.nav ul { background-color: var(--red); }	
+
+.nav li a { color: var(--white); }
+	
+.nav a:hover:not(.active) {
+	background-color: var(--blue);
+	color: var(--white);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color: var(--blue);
+}
+
+.introduceSection {	background-image: url("../netherlands/images_netherlands/netherlands_home1.jpg"); }	
+	
+.introduceSection p {
+	background: rgba(0,0,0,0.5); 
+	color: var(--white);
+}
+
+.article_content .gallery img:hover { box-shadow: 2px 2px 3px  var(--red); }
+
+article.red { border: 2px solid  var(--red); }
+
+article.white { border: 2px solid var(--white); }
+
+article.blue { border: 2px solid var(--blue); }
+	
+.introMainSection_column .fact { border-left: 5px solid var(--blue); }	
+	
+.introMainSection_column .fact:hover { box-shadow: 2px 2px 3px var(--blue); }
+	
+.introMainSection_column .button { color: var(--red); }
+	
+.introMainSection .button:hover{
+	border: 2px inset var(--red);
+	background-color: var(--white);
+	color: var(--blue);
+}
+		
+.footer{	
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.monuments_food_cont a {
+	color: var(--white);
+	background-color: var(--red);
+}
+
+.monuments_food_cont a:hover { background-color: var(--blue); }	
+	
+.factSection .fact {
+	background: linear-gradient(180deg, #e6eef8, #dbe6f3);
+	border-left: 5px solid var(--white);
+}
+	
+.factSection .fact.red { border-left-color: var(--red); }
+
+.factSection .fact.white { border-left-color: var(--white); }
+	
+.factSection .fact.blue { border-left-color: var(--blue); }
+
+.factSection .fact strong { color: var(--red); }
+	
+.factSection .fact.white strong {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	color: var(--white);
+}
+	
+.factSection .fact.blue strong { color: var(--blue); }
+
+.comment_container .comment_card { border: 1px solid var(--red); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--red);
+	padding: 10px;
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.addCommentSection .addButton:hover .addCommentSection .sendButton:hover {
+	border: 2px inset var(--blue);
+	color: var(--white);
+	background-color: var(--blue);
+}
+
+.addCommentSection .logIn{ color: var(--red);	}
+	
+.addCommentSection .logIn:hover{ color: var(--blue); }
+	
+.loginSection a {
+	border:2px solid var(--blue);
+	color: var(--blue);
+}
+
+.loginSection a:hover {
+	background-color: var(--blue);
+	color: var(--white);
+}
+	
+.loginSection form {
+	border: 3px outset var(--red);
+	color: var(--red);
+}
+	
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--red);
+	box-shadow: 5px 8px var(--red);
+}
+	
+.loginSection .logIn{
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.signUpSection a { color: var(--red); }
+
+.signUpSection form {
+	border: 3px outset var(--blue);
+	color: var(--blue);
+}
+	
+.signUpSection form input { border: 1px solid var(--blue); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--blue);
+}
+
+.signUpSection .signUp{
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.signUpSection .spanErr{ color: var(--red); }
+

@@ -1,0 +1,139 @@
+:root {
+	--black: #000;
+	--yellow: #FDDA24;
+	--red: #EF3340;
+}
+
+body { background: linear-gradient(180deg, #e8e8e8, #ffd6cc); }
+	
+.header_background { background-image: url("../belgium/images_belgium/belgium_flag.jpg"); }
+
+.nav ul{ background-color: var(--black); }	
+	
+.nav li a { color: var(--yellow); }
+
+.nav a:hover:not(.active) {
+	background-color: var(--red);
+	color: var(--yellow);
+}	
+
+.nav ul li a.active {
+	background-color: var(--yellow);
+	color: var(--red);
+}
+
+.header h1 { text-shadow: 2px 2px 4px var(--black); }
+
+.introduceSection {	background-image: url("../belgium/images_belgium/belgium_home.jpg"); }		
+
+.introduceSection p { color: var(--yellow); }
+	
+.introMainSection_row .gallery img:hover { box-shadow: 2px 2px 3px var(--black); }
+
+article.black { border: 2px solid var(--black); }
+
+article.yellow { border: 2px solid var(--yellow); }
+
+article.red { border: 2px solid var(--red); }
+
+.introMainSection_row .fact { border-left: 5px solid var(--red);}
+
+.introMainSection_row .fact:hover { box-shadow: 2px 2px 3px var(--red); }	
+
+.introMainSection_row .button { color: var(--black); }
+
+.introMainSection_row .button:hover{
+	border-color: var(--black);
+	background-color: var(--yellow);
+	color: var(--red);
+}
+		
+.footer{	
+	background-color: var(--black);
+	color: var(--yellow);
+}
+
+.monuments_food_cont a {
+	color: var(--black);
+	background-color: var(--yellow);
+}
+
+.monuments_food_cont a:hover {
+	background-color: var(--red);
+	
+}	
+.tripMainSection .fact { background: linear-gradient(135deg, #f2f2f2, #fff3c4, #ffd6d6); }
+		
+.tripMainSection .fact.black { border-left-color: var(--black); }
+	
+.tripMainSection .fact.yellow { border-left-color: var(--yellow); }
+	
+.tripMainSection .fact.red { border-left-color: var(--red); }
+	
+.tripMainSection fact strong { color: var(--black); }
+	
+.tripMainSection .fact.yellow strong { color: var(--yellow); }
+	
+.tripMainSection .fact.red strong { color: var(--red); }
+
+.comment_container .comment_card { border: 1px solid var(--black); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton{
+	border: 2px outset var(--yellow);
+	padding: 10px;
+	background-color: var(--yellow);
+	color: var(--red);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	background-color: var(--black);
+	color: var(--yellow);
+}
+
+.addCommentSection .logIn{ color: var(--red); }
+	
+.addCommentSection .logIn:hover{ color: var(--black); }
+
+.loginSection a {
+	background-color: var(--red);
+	color: var(--yellow)
+}
+
+.loginSection form {
+	border-color: 3px outset var(--black);
+	color: var(--black);
+}
+
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--black);
+}
+	
+.loginSection .logIn{
+	background-color: var(--black);
+	color: var(--yellow);
+}
+	
+.signUpSection a { color: var(--black); }
+	
+.signUpSection a:hover { color: var(--red); }
+
+.signUpSection form {
+	border-color: var(--red);
+	color: var(--red);
+}
+	
+.signUpSection form input { border: 1px solid var(--black); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid var(--red);
+	box-shadow: 5px 8px var(--red);
+}
+
+.signUpSection .signUp{
+	background-color: var(--red);
+	color: white;
+}
+
+.signUpSection .spanErr{ color: var(--black); }
+

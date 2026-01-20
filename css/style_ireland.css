@@ -1,0 +1,143 @@
+:root {
+	--green: #169B62;
+	--white: #FFF;
+	--orange: #FF883E; 
+}
+
+body { background: linear-gradient(180deg, #b3d9a5, #f2f2f2, #f2b58d); }
+		
+.header { background-image: url("../ireland/images_ireland/ireland_flag1.jpg"); }
+
+.header h1 { text-shadow: 2px 2px 4px var(--orange); }
+
+.nav ul{ background-color: var(--green); }	
+		
+.nav li a {	color: var(--white); }
+	
+.nav a:hover:not(.active) {
+	background-color: var(--orange);
+	color:ar(--white);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color: var(--orange);
+}
+
+.introduceSection {	background-image: url("../ireland/images_ireland/ireland_home2.jpg"); }		
+
+.introduceSection p { color: var(--white); }
+	
+.introMainSection_row .gallery img:hover { box-shadow: 2px 2px 3px var(--green); }
+
+article.green { border: 2px solid var(--green); }
+
+article.white { border: 2px solid var(--white); }
+
+article.orange { border: 2px solid var(--orange); }
+	
+.introMainSection_row .fact { 
+	border-left: 5px solid var(--orange); 
+	margin: 2px;
+}	
+	
+.introMainSection_row .fact:hover { box-shadow: 2px 2px 3px var(--orange); }
+
+.introMainSection_row .button { color: var(--green); }
+	
+.introMainSection_row .button:hover{
+	border: 2px inset var(--green);
+	background-color: var(--white);
+}
+			
+.footer{	
+	background-color: var(--green);
+	color: var(--white);
+}
+	
+.monuments_food_cont a {
+	color: var(--white);
+	background-color: var(--green);
+}
+
+.monuments_food_cont a:hover { background-color: var(--orange); }	
+	
+.tripMainSection .fact { border-left: 5px solid var(--white); }
+	
+.tripMainSection .fact.green { border-left-color: var(--green); }
+	
+.tripMainSection .fact.white { border-left-color: var(--white); }
+	
+.tripMainSection .fact.orange { border-left-color: var(--orange); }
+	
+.tripMainSection .fact strong { color: var(--green); }
+	
+.tripMainSection .fact.white strong {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+	color: var(--white);
+}
+	
+.tripMainSection .fact.orange strong { color: var(--orange); }
+
+.comment_container .comment_card { border: 1px solid var(--green); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--orange);
+	padding: 10px;
+	background-color: var(--orange);
+	color: var(--white);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover { background-color: var(--green); }
+
+.addCommentSection .logIn{ color: var(--orange); }
+	
+.addCommentSection .logIn:hover{ color: var(--green); }
+
+.loginSection a {
+	background-color: var(--orange);
+	color: var(--white);
+}
+
+.loginSection form {
+	border: 3px outset var(--green);
+	color: var(--green);
+}
+
+.loginSection form input { border: 3px groove var(--green) }
+	
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--green);
+}
+	
+.loginSection .logIn{
+	background-color: var(--green);
+	color: white;
+}
+	
+.signUpSection a { color: var(--green); }
+	
+.signUpSection a:hover { color: var(--orange); }
+
+.signUpSection form {
+	border: 3px outset var(--orange);
+	color: var(--orange);
+}
+	
+.signUpSection form input { border: 1px solid var(--green); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--orange);
+}
+
+.signUpSection .signUp{
+	background-color: var(--orange);
+	color: white;
+}
+	
+.signUpSection .spanErr{
+	color: var(--green);
+}
+

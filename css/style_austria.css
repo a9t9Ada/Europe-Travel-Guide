@@ -1,0 +1,143 @@
+:root {
+	--red: #C8102E;
+	--white: #FFF;
+	--yellow: #F1BF00;
+}
+
+body { background: linear-gradient(180deg, #f3dcdc, #f7f7f7, #f3dcdc); }
+		
+.nav ul{ background-color:  var(--red); }	
+
+.nav li a { color: var(--white); }
+
+.nav a:hover:not(.active) {
+	background-color: var(--white);
+	color:  var(--red);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color: var(--yellow);
+}
+
+.header h1 { text-shadow: 2px 2px 4px var(--red); }
+
+.introduceSection {	background-image: url("../austria/images_austria/austria_home.jpg"); }	
+
+.introduceSection p { background: rgba(0,0,0,0.3); }
+	
+.article_content .gallery img:hover { box-shadow: 2px 2px 3px var(--red); }
+
+article.red { border: 2px solid var(--red); }
+
+article.white { border: 2px solid var(--white); }
+
+.introMainSection_column .fact { border-left: 5px solid var(--red); }	
+
+.introMainSection_column .fact:hover { box-shadow: 2px 2px 3px var(--red); }
+
+.introMainSection_column .button { color: var(--red); }
+
+.introMainSection_column .button:hover{
+	border-color: var(--red);
+	background-color: var(--white);
+	color: var(--red);
+}
+		
+.footer{	
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.monuments_food_cont a {
+	color: var(--white);
+	background-color: var(--red);
+}
+
+.monuments_food_cont a:hover {
+	color: var(--red);
+	background-color: var(--white);
+	border: 2px solid var(--red);
+}	
+
+.factSection .fact.white { border-left-color: var(--white); }
+	
+.factSection .fact.red { border-left-color: var(--red); }
+	
+.factSection .fact strong { color: var(--red); }
+
+.factSection .fact.white strong {
+	color: var(--white);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+
+.comment_container .comment_card { border: 1px solid var(--red); }
+
+.addCommentSection {
+	margin: 20px 18px;
+	text-align: center;
+}
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--red);
+	padding: 10px;
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	border: 2px inset var(--red);
+	color: var(--red);
+	background-color: var(--white);
+}
+
+.addCommentSection .logIn{ color: var(--red); }
+	
+.addCommentSection .logIn:hover{
+	border: 2px solid var(--white);
+	padding: 10px;
+}
+	
+.loginSection a {
+	border:2px solid var(--red);
+	color: #C8102E;
+}
+
+.loginSection a:hover {
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.loginSection form {
+	border-color: var(--red);
+	color: var(--red);
+}
+
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--red);
+	box-shadow: 5px 8px var(--red)
+}
+	
+.loginSection .logIn{ background-color: var(--red); }
+	
+.signUpSection a { color: var(--red); }
+	
+.signUpSection form {
+	border-color: var(--red);
+	color: var(--red);
+}
+	
+.signUpSection form input { border: 1px solid var(--red); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--red);
+}
+
+.signUpSection .signUp{
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.signUpSection .spanErr{ color: var(--red); }
+

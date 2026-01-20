@@ -1,0 +1,534 @@
+.header_image {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header_image img {
+	width: 100%;   
+	height: 100%;  
+	object-fit: fill; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.header { 
+	min-height: 200px;
+	max-height: 350px;
+}
+
+.header h1 {
+	color: white;
+	font-size: clamp(2rem, 4vw, 3rem);
+	text-align: center;
+	font-family: "Lucida Handwriting", sans-serif, cursive;
+	padding-top: 15px;
+}
+
+.header_background {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;  
+	padding: 5px;		
+}
+
+.nav ul{
+	display: flex;	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;		
+}
+	
+.nav li { flex: 1; }
+
+.nav li a {
+	display: block;          	
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 0;    
+}
+
+.introduceSection {	
+	background-color: #000;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 85%;
+	height: 80vh;		
+	border-radius: 10px;
+	margin: 10px 70px;
+	overflow: hidden;
+	position: relative;
+			
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}	
+
+.introduceSection p {
+	background: rgba(0,0,0,0.2); 
+	color: #FFF;
+	font-family: Brush Script MT, cursive;
+	font-size: clamp(2rem, 4vw, 3rem);
+	padding: 5px;
+	max-width: 95%;
+	word-wrap: break-word;
+}
+
+.introMainSection_column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.introMainSection_row {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.introMainSection_column article {
+	width: 95%;
+	border-radius: 15px;
+}
+
+.introMainSection_row article {
+	flex: 1;
+	padding: 15px;
+	border-radius: 15px;
+	text-align: justify;
+			
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.introMainSection_column h3, .introMainSection_row h3 {
+	text-align: center;
+	font-family: 'Lucida Handwriting', cursive, sans-serif;
+	margin-bottom: 15px;
+}
+
+.article_content {
+	display: flex;
+	gap: 20px;
+}
+
+.article_content .text {
+	flex: 1; 
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	margin: 5px 5px 5px 15px;
+}
+
+.article_content .gallery {
+	flex: 2; 
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: 1fr;   
+	gap: 5px;
+	margin: 5px;
+}
+
+.article_content .gallery img {
+	width: 100%;
+	height: 250px;  
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.introMainSection_row .gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 170px;
+	gap: 5px;
+}
+
+.introMainSection_row .gallery img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.article_content .gallery img:hover, .introMainSection_row .gallery img:hover {
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+
+.introMainSection_row .fact, .introMainSection_column .fact {
+	background: #ffffffaa;
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	margin: 10px;
+}
+
+.introMainSection_row .fact:hover, .introMainSection_column .fact:hover, .introMainSection .fact:hover {
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+
+.introMainSection_row .button, .introMainSection_column .button, .introMainSection .button {
+	text-decoration: none;
+	font-family: 'Lucida Handwriting', cursive, sans-serif;
+	font-size: 13px;
+}
+	
+.introMainSection_row .button:hover, .introMainSection_column .button:hover, .introMainSection .button {
+	width: 25%;
+	border: 2px inset;
+	padding: 5px;
+}
+
+.footer{	
+	height: 50px;
+	border-top: 2px groove gray;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.monuments_food_cont {
+	display: grid;
+	
+	grid-auto-rows: 1fr;
+	gap: 10px;
+	margin: 20px;
+}
+.grid2 { grid-template-columns: repeat(2, minmax(300px, 1fr)); }
+
+.grid3 { grid-template-columns: repeat(3, minmax(300px, 1fr)); }
+
+.monuments_food_cont article {
+	padding: 15px;
+	border-radius: 15px;
+	text-align: justify;
+			
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 15px !important;
+}
+
+.monuments_food_cont a { margin-top: auto; }
+
+.monuments_food_cont h3 {
+	text-align: center;
+	font-family: 'Lucida Handwriting', cursive, sans-serif;
+}
+
+.monuments_food_cont .gallery {
+	display: flex;
+	gap: 5px;
+}
+
+.monuments_food_cont .gallery img {
+	width: 50%;
+	height: 170px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.monuments_food_cont .gallery img:hover{
+	transform: scaleY(1.3);
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.monuments_food_cont  a {
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+} 
+
+.monuments_food_cont article a:hover {
+	transform: scale(1.03);
+	transition: 0.3s;
+	box-shadow: 2px 3px 2px black;
+}
+
+.tripMainSection {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+
+.tripMainSection_column { flex-direction: column; }
+
+.tripMainSection article {
+	flex: 1;
+	padding: 15px;
+	border-radius: 15px;
+	text-align: justify;
+			
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.tripMainSection h3 {
+	text-align: center;
+	font-family: 'Lucida Handwriting', cursive, sans-serif;
+}
+
+.factSection .fact {
+	flex: 1;
+	background-color: #f1f1f1;
+	padding: 14px 18px;
+	border-radius: 12px;
+	border-left: 5px solid #ffffff;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	line-height: 1.6;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);	
+}
+
+.factSection {
+	display: flex;
+	gap: 30px;
+}
+
+
+.tripMainSection .fact {
+	background: linear-gradient(135deg, #d0d9ff, #d9e0ff, #f2e6e6);
+	padding: 14px 18px;
+	border-radius: 12px;
+	border-left: 5px solid #ffffff;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	line-height: 1.6;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);		
+}
+
+.tripMainSection .fact:hover { 
+	transform: translateY(-5px); 
+	box-shadow: 0 8px 20px rgba(0,0,0,0.15); 
+	transition: 0.3s; 
+	cursor: pointer;
+}
+
+.tripMainSection .fact strong {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.comment_container {
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+	margin: 10px 15px;
+}
+
+.comment_container .comment_card {
+	width: 80%;
+	background-color: #FFF;
+	padding: 10px 20px;	
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.addCommentSection {
+	margin: 20px 18px;
+	text-align: center;
+}
+
+.addCommentSection textarea {
+	font-family: Arial;
+	width: 80%;
+	height: 90px;
+	min-height: 80px;
+}
+
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	transform: scale(1.1);
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.addCommentSection .logIn{
+	margin: 10px;
+	font-family: Lucida Handwriting;
+	text-decoration: none;
+}
+
+.addCommentSection .logIn:hover{
+	text-shadow: 2px 2px 3px;
+	transform: scale(1.1);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.loginSection{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.loginSection a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.loginSection a:hover {
+	transform: scaleX(1.1);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+.loginSection form {
+	width: 30%;
+	height: 400px;
+	border: 3px outset;
+	padding: 90px 50px;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+.loginSection form input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.loginSection .logIn{
+	color: #FFF;
+	padding: 12px 14px;
+	align-items: center;
+}
+
+.loginSection .logIn:hover{
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+	transform: scaleX(1.1);
+	cursor: pointer;
+}
+
+.signUpSection{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.signUpSection a {
+	display: block;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	text-decoration: none;
+}
+
+.signUpSection a:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.signUpSection form {
+	width: 35%;
+	height: 600px;
+	border: 3px outset;
+	padding: 90px 50px;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.signUpSection form input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.signUpSection .signUp{
+	border: none;
+	padding: 10px 5px;
+	align-items: center;
+}
+
+.signUpSection .signUp:hover{
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+	transform: scaleX(1.1);
+	cursor: pointer;
+}
+/*Francuska
+@media (max-width: 600px) {
+	.introMainSection article { max-width: 100%; }
+	.introMainSection .gallery img:hover { transform: scale(1.05); }
+	
+	.introduceSection { margin: 10px auto 10px auto; }
+	.introduceSection { background-attachment: scroll; }
+	
+	.monuments_food_cont {
+		display: flex;
+		flex-direction: column;
+	}
+	.monuments_food_cont .gallery img:hover { transform: scale(1.05); }
+	
+	.tripMainSection { flex-direction: column; }
+	.tripMainSection article { width: 90%; }
+	
+	.loginSection form { width: 90%; }
+	.signUpSection form {width: 90%; }
+}*/
+/*Austria*/
+@media (max-width: 600px) {
+	.introduceSection { margin: 10px auto; }
+	
+	.introMainSection_row {
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+	}
+	
+	.article_content { flex-direction: column; }
+	
+	.article_content .gallery img:hover, .introMainSection_row .gallery img:hover { transform: scale(1.05); }
+	
+	.introMainSection_row .fact:hover, .introMainSection_column .fact:hover, .introMainSection .fact:hover { transform: scale(1.04); }
+	
+	.monuments_food_cont { 
+		display: flex;	
+		flex-direction: column;	
+	}
+	
+	.monuments_food_cont .gallery img:hover { transform: scale(1.1); }
+	
+	.monuments_food_cont a:hover { transform: scale(1.01); }
+	
+	.tripMainSection {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.factSection { flex-direction: column; }
+	
+	.loginSection form { width: 90%; }
+	
+	.signUpSection form {width: 90%; }
+	
+}
+
+

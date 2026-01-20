@@ -1,0 +1,111 @@
+.header {
+	background-image: url("../europe1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;  
+	height: 60vh;
+	min-height: 300px;
+	color: #ffffff;
+	font-size: clamp(1rem, 4vw, 3rem);
+	text-shadow: 2px 2px 4px black; 
+	text-align: center;
+	padding: 20px 15px;
+	font-family: Lucida Handwriting;
+	margin: auto;
+}
+
+.intro_section {
+	display: flex;
+	gap: 20px;
+	margin: 20px;
+}
+		
+.intro_section article{
+	flex: 1;
+	background: linear-gradient(135deg, #243447, #1b2633);
+	color: #F5F7FA;
+	padding: 25px;
+	text-align: justify;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.intro_section article:hover {
+	transform: scale(1.03);
+	transition: transform 0.3s, background 0.3s;
+}
+		
+.intro_section h2 {
+	font-family: Brush Script MT, cursive, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+		
+.country_section {
+	display: grid;
+	grid-template-columns: repeat(6, minmax(180px, 1fr));
+	grid-template-rows: repeat(3, 180px);
+	gap: 20px;
+	margin: 5px 0;
+}
+
+.country_section .country_card {
+	border-radius: 50%;
+	border: 1px solid #000;
+	background-color: #FFF;
+	overflow: hidden;
+	
+	position: relative;
+}
+.country_card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.country_card:hover {
+	 transform: scale(1.05);
+    box-shadow: 5px 7px 10px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+.country_section .text_over{
+	position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0;                  
+    transition: opacity 0.4s;
+}
+
+.country_card:hover .text_over { opacity: 1; }
+
+.footer{
+	background: linear-gradient(135deg, #243447, #1b2633);
+	height: 50px;
+	width: 100%;
+	border-top: 2px groove gray;
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 20px;
+	color: #FFF;
+}
+
+@media (max-width: 900px) {
+	.country_section { grid-template-columns: repeat(4, 1fr); }
+}
+		
+@media (max-width: 600px) {
+	.intro_section { flex-direction: column; }
+	
+	.country_section { 
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(6, 155px);
+	}
+}

@@ -1,0 +1,147 @@
+:root {
+	--blue: #0072CE;
+	--black: #000;
+	--white: #FFF;
+}
+
+body { background: linear-gradient(180deg, #cce0ff, #f2f2f2, #d9d9d9); }
+		
+.header_image h1 { text-shadow: 2px 2px 4px var(--black); }
+
+.nav ul{ background-color:  var(--blue); }	
+	
+.nav li a { color: var(--black); }
+	
+.nav a:hover:not(.active) {
+	background-color: #FFF;
+	color: var(--black);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--black);
+	color: #FFF;
+}
+
+.introduceSection {	background-image: url("../estonia/images_estonia/estonia_home1.jpg"); }	
+	
+.introduceSection p {
+	background: rgba(0,0,0,0.1); 
+	color: var(--black);
+}
+
+.article_content .gallery img:hover { box-shadow: 2px 2px 3px var(--blue); }
+
+article.blue { border: 2px solid var(--blue); }
+
+article.black { border: 2px solid var(--black); }
+
+article.white { border: 2px solid #FFF; }
+
+.introMainSection_column .fact { background: linear-gradient(180deg, #e6f0ff, #ffffff); }	
+	
+.introMainSection_column .fact:hover { box-shadow: 2px 2px 3px #FFF; }
+	
+.introMainSection_column .button { color: var(--blue); }
+	
+.introMainSection_column .button:hover{
+	border: 2px inset var(--blue);
+	background-color: var(--white);
+	color:  var(--black);
+}
+		
+.footer{	
+	background-color: var(--blue);
+	color: var(--black);
+}
+
+.monuments_food_cont a {
+	color: var(--white);
+	background-color: var(--blue);
+}
+
+.monuments_food_cont a:hover { background-color: var(--black); }	
+	
+.factSection .fact {
+	background-color:  #a3c4e0;
+	border-left: 5px solid #FFF;
+}
+
+.factSection .fact.blue { border-left-color: var(--blue); }
+	
+.factSection .fact.black { border-left-color: var(--black); }
+	
+.factSection .fact.white { border-left-color: #FFF; }
+	
+.factSection .fact strong { color: var(--blue); }
+	
+.factSection .fact.black strong { color: var(--black); }
+	
+.factSection .fact.white strong { color: #FFF; }
+
+.comment_container .comment_card {
+	border: 1px solid var(--blue);
+	background-color: #FFF;
+}
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--blue);
+	padding: 10px;
+	background-color: var(--blue);
+	color: #FFF;
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	border: 2px inset var(--black);
+	background-color: var(--black);
+}
+
+.addCommentSection .logIn{ color: var(--blue); }
+	
+.addCommentSection .logIn:hover{ color: var(--black); }
+
+.loginSection a {
+	border:2px solid var(--black);
+	color: var(--black);
+}
+
+.loginSection a:hover {
+	background-color: var(--black);
+	color: #FFF;
+}
+	
+.loginSection form {
+	border: 3px outset var(--blue);
+	color: var(--blue);
+}
+
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--blue);
+	box-shadow: 5px 8px var(--blue);
+}
+	
+.loginSection .logIn{
+	background-color: var(--blue);
+	color: var(--white);
+}
+	
+.signUpSection a { color: var(--blue); }
+	
+.signUpSection form {
+	border: 3px outset #000;
+	color: #000;
+}
+	
+.signUpSection form input { border: 1px solid #000;}
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px #000;
+}
+
+.signUpSection .signUp{
+	background-color: #000;
+	color: white;
+}
+	
+.signUpSection .spanErr{ color: var(--blue); }
+

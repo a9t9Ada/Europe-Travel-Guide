@@ -1,0 +1,147 @@
+:root {
+	--red: #CE2939;
+	--white: #FFF;
+	--green: #477050;
+}
+
+body { background: linear-gradient(180deg, #ffcccc, #f9f9f9, #ccffcc); }
+		
+.header h1 { text-shadow: 4px 4px 5px var(--red); }
+
+.nav ul{ background-color: var(--red); }	
+	
+.nav li a { color: var(--white); }
+	
+.nav a:hover:not(.active) {
+	background-color: var(--green);
+	color: var(--white);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color: var(--green);
+}
+
+.introduceSection {	background-image: url("../hungary/images_hungary/hungary_home.jpg"); }	
+	
+.introduceSection p {
+	background: rgba(0,0,0,0.5); 
+	color: var(--white);
+}
+
+.article_content .gallery img:hover { box-shadow: 2px 2px 3px var(--red); }
+
+article.red { border: 2px solid  var(--red); }
+
+article.white { border: 2px solid var(--white); }
+
+article.green { border: 2px solid var(--green); }
+
+.introMainSection_column .fact { border-left: 5px solid  var(--green); }	
+
+.introMainSection_column .fact:hover { box-shadow: 2px 2px 3px var(--green); }
+	
+.introMainSection_column .button { color:  var(--red); }
+
+.introMainSection_column .button:hover{
+	border: 2px inset   var(--green);
+	background-color: var(--white);
+	color:  var(--red);
+}
+		
+.footer{	
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.monuments_food_cont a {
+	color: var(--white);
+	background-color: var(--red);
+}
+
+.monuments_food_cont a:hover { background-color: var(--green); }	
+	
+.factSection .fact {
+	background: linear-gradient(180deg, #faf4ed, #f0e8df);
+	border-left: 5px solid var(--white);
+}
+
+.factSection .fact.red { border-left-color: var(--red); }
+
+.factSection .fact.white {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25); 
+	border-left-color: var(--white);
+}
+	
+.factSection .fact.green { border-left-color: var(--green); }
+	
+.factSection .fact strong { color: var(--red); }
+	
+.factSection .fact.white strong { color: var(--white); }
+	
+.factSection .fact.green strong { color: var(--green); }
+
+.comment_container .comment_card { border: 1px solid var(--red); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--red);
+	padding: 10px;
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	border: 2px inset var(--green);
+	color: var(--green);
+	background-color: var(--white);
+}
+
+.addCommentSection .logIn{ color: var(--red); }
+	
+.loginSection a {
+	border:2px solid var(--green);
+	color: var(--green);
+}
+
+.loginSection a:hover {
+	background-color: var(--green);
+	color: var(--white);
+}
+	
+.loginSection form {
+	border: 3px outset var(--red);
+	color: #C8102E;
+}
+	
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--red);
+	box-shadow: 5px 8px var(--red);
+}
+	
+.loginSection .logIn{
+	border: 2px outset var(--red);
+	background-color: var(--red);
+	color: var(--white);
+}
+	
+.signUpSection a { color: var(--red); }
+
+.signUpSection form {
+	border: 3px outset var(--green);
+	color: var(--green);
+}
+	
+.signUpSection form input { border: 1px solid var(--green); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--green);
+}
+
+.signUpSection .signUp{
+	background-color: var(--green);
+	color: white;
+}
+		
+.signUpSection .spanErr{ color: var(--red); }
+

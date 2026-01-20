@@ -1,0 +1,140 @@
+:root {
+	--red: #AA151B;
+	--yellow: #F1BF00;
+	--white: #FFF;
+}
+
+body { background: linear-gradient(180deg, #ffe5e5, #fff9d6, #ffe5e5); }
+		
+.header h1 { text-shadow: 2px 2px 4px var(--yellow); }
+
+.nav ul{ background-color: var(--red); }	
+		
+.nav li a { color: var(--yellow); }
+	
+.nav a:hover:not(.active) {
+	background-color: var(--yellow);
+	color: var(--red);
+}	
+	
+.nav ul li a.active {
+	background-color: var(--white);
+	color: var(--yellow);
+}
+
+.introduceSection {	background-image: url("../spain/images_spain/spain_home2.png"); }	
+	
+.introduceSection p {
+	background: rgba(0,0,0,0.5); 
+	color: var(--yellow);
+}
+
+.article_content .gallery img:hover { box-shadow: 2px 2px 3px var(--red); }
+
+article.red { border: 2px solid var(--red); }
+
+article.yellow { border: 2px solid var(--yellow); }
+
+.introMainSection_column .fact { border-left: 5px solid var(--red); }
+
+.introMainSection_column .fact:hover { box-shadow: 2px 2px 3px var(--red); }	
+	
+.introMainSection_column .button { color: var(--red); }
+	
+.introMainSection_column .button:hover {
+	border: 2px inset var(--red);
+	background-color: var(--white);
+	color:  var(--red);
+}
+		
+.footer {	
+	background-color: var(--red);
+	color: var(--yellow);
+}
+	
+.monuments_food_cont a {
+	color: var(--yellow);
+	background-color: var(--red);
+}
+
+.monuments_food_cont a:hover {
+	color: var(--red);
+	background-color: var(--yellow);
+	border: 2px solid var(--red);
+}	
+	
+.factSection .fact { background: linear-gradient(180deg, #ffe6a7, #fff3d6, #ffd6d6); }
+	
+.factSection .fact.yellow { border-left-color: var(--yellow); }
+	
+.factSection .fact.red { border-left-color: var(--red); }
+	
+.factSection .fact strong { color: var(--red); }
+	
+.factSection .fact.yellow strong { color: var(--yellow); }	
+
+.comment_container .comment_card { border: 1px solid var(--red); }
+
+.addCommentSection .addButton, .addCommentSection .sendButton {
+	border: 2px outset var(--red);
+	padding: 10px;
+	background-color: var(--red);
+	color: var(--yellow);
+}
+	
+.addCommentSection .addButton:hover, .addCommentSection .sendButton:hover {
+	border: 2px inset var(--yellow);
+	color: var(--yellow);
+	background-color: var(--white);
+}
+
+.addCommentSection .logIn{ color: var(--red); }
+	
+.addCommentSection .logIn:hover{ color: var(--yellow); }
+	
+.loginSection a {
+	border:2px solid var(--yellow);
+	color: var(--yellow);
+}
+
+.loginSection a:hover {
+	background-color: var(--yellow);
+	color: var(--white);
+}
+	
+.loginSection form {
+	border: 3px outset var(--red);
+	color: var(--red);
+}
+	
+.loginSection input[type=text]:focus, .loginSection input[type=password]:focus {
+	border: 2px solid var(--red);
+	box-shadow: 5px 8px var(--red);
+}
+	
+.loginSection .logIn{
+	background-color: var(--red);
+	color: white;
+}
+		
+.signUpSection a { color: var(--red); }
+	
+.signUpSection form {
+	border: 3px outset var(--yellow);
+	color: var(--yellow);
+}
+	
+.signUpSection form input { border: 1px solid var(--yellow); }
+
+.signUpSection input[type=text]:focus, .signUpSection input[type=password]:focus {
+	border: 2px solid red;
+	box-shadow: 5px 8px var(--yellow);
+}
+
+.signUpSection .signUp{
+	background-color: var(--yellow);
+	color: var(--white);
+}
+	
+.signUpSection .spanErr{ color: var(--red); }
+
