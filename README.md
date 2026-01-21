@@ -11,29 +11,6 @@
 
 ## Screenshots
 
-![Home Page - Top](images/home_top.png)
-*Home page - top section*
-
-![Home Page - Bottom](images/home_bottom.png)
-*Home page - bottom section*
-
-![Intro Page Bosnia & Herzegovina](images/intro_bih.png)
-*Intro page with country info*
-
-![Monuments Page Bosnia & Herzegovina](images/monuments_bih.png)
-*Monuments page*
-
-![Trip Plan Page Bosnia & Herzegovina](images/trip_bih.png)
-*Trip plan page*
-
-![Advice/Comment Page Bosnia & Herzegovina](images/advice_bih.png)
-*Advice/comment section*
-
-![Login Form Bosnia & Herzegovina](images/login_bih.png)
-*Login page*
-
-![SignUp Form Bosnia & Herzegovina](images/signup_bih.png)
-
 ![Home Page - Top](images/home_page_1.png)
 *Home page - top section*
 
