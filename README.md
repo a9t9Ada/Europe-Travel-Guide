@@ -75,7 +75,7 @@
 Lukavac, Bosnia & Herzegovina  
  
 [GitHub](https://github.com/a9t9Ada/Europe-Travel-Guide)
-
+[LinkedIn](www.linkedin.com/in/adelina-tufekcic-3325b8373)
 ---
 **This project is created for learning and portfolio purposes – strictly educational.**
 
