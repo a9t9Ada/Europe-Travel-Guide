@@ -33,6 +33,68 @@
 *Login page*
 
 ![SignUp Form Bosnia & Herzegovina](images/signup_bih.png)
+
+![Home Page - Top](images/home_page_1.png)
+*Home page - top section*
+
+![Home Page - Middle](images/home_page_2.png)
+*Home page - middle section*
+
+![Home Page - Bottom](images/home_page_3.png)
+*Home page - bottom section*
+
+![Intro Page Bosnia & Herzegovina - Top](images/bosnia_intro_1.png)
+*Intro page with country info - top section*
+
+![Intro Page Bosnia & Herzegovina - Middle 1](images/bosnia_intro_2.png)
+*Intro page with country info - middle 1 section*
+
+![Intro Page Bosnia & Herzegovina - Middle 2](images/bosnia_intro_3.png)
+*Intro page with country info - middle 2 section*
+
+![Intro Page Bosnia & Herzegovina - Bottom](images/bosnia_intro_4.png)
+*Intro page with country info - bottom section*
+
+![Monuments Page Bosnia & Herzegovina - Top](images/bosnia_monuments_1.png)
+*Monuments page - Top Section*
+
+![Monuments Page Bosnia & Herzegovina - Middle](images/bosnia_monuments_2.png)
+*Monuments page - Middle Section*
+
+![Monuments Page Bosnia & Herzegovina - Bottom](images/bosnia_monuments_3.png)
+*Monuments page - Bottom Section*
+
+![Food Page Bosnia & Herzegovina - Top](images/bosnia_food_1.png)
+*Food page - Top Section*
+
+![Food Page Bosnia & Herzegovina - Bottom](images/bosnia_food_2.png)
+*Food page - Bottom Section*
+
+![Trip Plan Page Bosnia & Herzegovina - Top](images/bosnia_trip_1.png)
+*Trip plan page - Top section*
+
+![Trip Plan Page Bosnia & Herzegovina - Middle](images/bosnia_trip_2.png)
+*Trip plan page - Middle section*
+
+![Trip Plan Page Bosnia & Herzegovina - Bottom](images/bosnia_trip_3.png)
+*Trip plan page - Bottom section*
+
+![Advice/Comment Page Bosnia & Herzegovina - Top](images/bosnia_advice_1.png)
+*Advice/comment section - Top Section*
+
+![Advice/Comment Page Bosnia & Herzegovina - Middle](images/bosnia_advice_3.png)
+*Advice/comment section - Middle Section*
+
+![Advice/Comment Page Bosnia & Herzegovina - Add Comment](images/bosnia_advice_4.png)
+*Advice/comment section - Add Comment Section*
+
+![Advice/Comment Page Bosnia & Herzegovina - Bottom](images/bosnia_advice_2.png)
+*Advice/comment section - Bottom Section*
+
+![Login Form Bosnia & Herzegovina](images/bosnia_logIn_forma.png)
+*Login page*
+
+![SignUp Form Bosnia & Herzegovina](images/bosnia_signUp_forma.png)
 *SignUp page*
 
 ---
@@ -75,7 +137,11 @@
 Lukavac, Bosnia & Herzegovina  
  
 [GitHub](https://github.com/a9t9Ada/Europe-Travel-Guide)
+
 [LinkedIn](www.linkedin.com/in/adelina-tufekcic-3325b8373)
+
+[LinkedIn](https://www.linkedin.com/in/adelina-tufekcic-3325b8373)
+
 ---
 **This project is created for learning and portfolio purposes – strictly educational.**
 
@@ -84,4 +150,5 @@ Lukavac, Bosnia & Herzegovina
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
